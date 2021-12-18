@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25%;
+    /* 100vh down if not on full clear */
+    padding-left: 80vh; 
+
+    /* border: 2px solid black; */
+}
+
+p,h1{
+    /* log */
+    color: rgb(206, 26, 182);
+    margin-bottom: 20px;
+}
+
+input{
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+#btn:hover{
+    color: rgb(230, 9, 9);
+    border-color: white;
+    background-color: white;
+}
+
+#btn{
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 17px;
+    background-color:purple ;
+    border: 5px solid purple;
+    border-radius: 8px;
+    color:  rgb(253, 253, 253);
+   
+}
+
+#email{
+    background:none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(221, 105, 206);
+    /* height: 10px; */
+}
+
+#password{
+        border: none;
+        margin-bottom: 5px;
+        background:none;
+        border-bottom:3px solid rgb(221, 105, 206);
+}
